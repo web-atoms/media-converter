@@ -8,6 +8,11 @@ MP4 to WebM Converter in Browser using WebCodecs
 2. Supports resizing video to lower file size by reudcing bit rate.
 3. Supported on Chrome.
 
+# Current Issues, Need Help with Following.
+
+1. Audio Encoding has some frames dropped (audio is choppy)
+2. Video Encoding is not working firefox due to codec naming.
+
 ```html
 <!DOCTYPE HTML>
 <html>
