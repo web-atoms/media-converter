@@ -49,6 +49,8 @@ export default class WebMEncoder {
             init.push(waitForStart(audioEncoder));
         }
 
+        await Promise.all(init);
+
         this.muxer = new Muxer({
             target,
             type: "webm",

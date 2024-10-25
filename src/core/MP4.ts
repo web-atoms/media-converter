@@ -14,7 +14,7 @@ export interface IMP4Track {
     timescale: number;
     track_height: number;
     track_width: number;
-    type: "audio" | "video";
+    type: "audio" | "video" | "metadata";
     video: {width: number, height: number};
     audio: {
         channel_count: number;

@@ -112,6 +112,9 @@ export default class MP4Decoder {
             const track = this.info.tracks.find((x) => x.id === track_id);
 
             const d = this.decoders.get(track_id);
+            if (!d) {
+                return;
+            }
             switch(track.type) {
                 case "video":
                     for (const element of samples) {
