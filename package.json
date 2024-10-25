@@ -1,7 +1,7 @@
 {
-  "name": "@social-mail/media-converter",
+  "name": "@web-atoms/media-converter",
   "version": "1.0.1",
-  "description": "Private Media Converter",
+  "description": "Media Converter",
   "main": "index.js",
   "scripts": {
     "test": "node --enable-source-maps ./test.mjs",

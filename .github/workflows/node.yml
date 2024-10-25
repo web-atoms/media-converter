@@ -1,0 +1,24 @@
+name: Build
+
+on: 
+  push: 
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+      - run: npm install -g typescript
+      - run: npm install
+      - run: tsc
+      # - run: node ./node_modules/@web-atoms/ts-to-systemjs/index.js
+      - run: npm run test
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
