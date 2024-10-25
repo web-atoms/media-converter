@@ -1,0 +1,3 @@
+
+include:
+    - remote: https://gitlab.neurospeech.com/ns-public/templates/-/raw/main/.gitlab-node-npm.yml

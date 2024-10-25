@@ -1,0 +1,37 @@
+{
+  "name": "@social-mail/media-converter",
+  "version": "1.0.1",
+  "description": "Private Media Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --enable-source-maps ./test.mjs",
+    "postversion": "git push --follow-tags",
+    "push": "git add -A && git commit -m \"dep vb\" && npm version patch"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bundledDependencies": true,
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "webm-muxer": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/stripe-v3": "^3.1.26",
+    "@types/tinycolor2": "^1.4.6",
+    "@types/webrtc": "^0.0.33",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "chart.js": "^3.9.1",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^46.2.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "tslib": "^2.4.1",
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass"
+            ]
+        }
+   },
+   "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "cSpell.words": [
+        "Akash",
+        "canvastext",
+        "fontawesome",
+        "Fonticons",
+        "jsdelivr",
+        "lightgray",
+        "postversion",
+        "signup",
+        "socialmail",
+        "tinycolor",
+        "webm",
+        "webp",
+        "webrtc",
+        "xlst"
+    ],
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.bracketPairColorization.enabled": true,
+    "eslint.alwaysShowStatus": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"eslint.format.enable": true,
+	"emmet.showSuggestionsAsSnippets": false,
+	"emmet.showAbbreviationSuggestions": false,
+	"emmet.excludeLanguages": [
+		"markdown",
+		"typescript",
+		"typescriptreact"
+	],
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "window.commandCenter": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "svg.preview.background": "custom",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+    <body>
+        <section>
+            <div>Choose File</div>
+            <input id="videoFile" type="file" accept="video/*"/>
+            <script src="./converter.js" type="module"></script>
+            <progress min="0" max="1"></progress>
+            <video controls="true" style="height: 500px"></video>
+            <pre style="height: 400px; width: 100%"></pre>
+        </section>
+    </body>
+</html>
